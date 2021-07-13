@@ -1,0 +1,18 @@
+{
+  "presets": [
+    "@babel/preset-typescript"
+  ],
+  "plugins": [
+    "@babel/plugin-transform-runtime",
+    "@babel/proposal-class-properties",
+    "@babel/proposal-object-rest-spread",
+    ["module-resolver", {
+      "root": ["./"],
+      "alias": {
+        "@": "./app",
+        "@services": "./app/services",
+        "@util": "./app/util"
+      }
+    }]
+  ]
+}

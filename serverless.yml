@@ -1,0 +1,20 @@
+service: serverless-nodejs-boilerplate # Replace this with your project name
+
+plugins:
+  - serverless-offline
+
+provider:
+  name: aws
+  runtime: nodejs12.x
+  stage: develop
+  region: ap-southeast-1
+  package:
+    individually: true
+    excludeDevDependencies: false
+    include:
+      - app/**/*
+    exclude:
+      - .git/**
+      - .travis.yml
+      - node_modules/**
+

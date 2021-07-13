@@ -1,0 +1,22 @@
+{
+  "name": "serverless-nodejs-boilerplate",
+  "version": "1.0.0",
+  "description": "A open source serverless nodejs boilerplate",
+  "main": "index.js",
+  "repository": "https://github.com/Rythinx/serverless-nodejs-boilerplate.git",
+  "author": "pbpb97 <developer.rythinx@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "@babel/runtime": "^7.14.6"
+  },
+  "devDependencies": {
+    "@babel/plugin-proposal-class-properties": "^7.14.5",
+    "@babel/plugin-proposal-object-rest-spread": "^7.14.7",
+    "@babel/plugin-transform-runtime": "^7.14.5",
+    "babel": "^6.23.0",
+    "babel-core": "^6.26.3",
+    "serverless-offline": "^7.0.0",
+    "typescript": "^4.3.5",
+    "webpack-merge": "^5.8.0"
+  }
+}
